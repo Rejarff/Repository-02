@@ -1,0 +1,211 @@
+table,
+th,
+td 
+ {
+    border:1px solid black ;
+    border-collapse: collapse;
+}
+th,
+td 
+ {
+    padding: 5px;
+}
+/*kolor tła */
+body
+ {
+    background-color: rgb(245, 245, 245)
+}
+
+/*kolor tła dowolnego elementu*/  
+.autor 
+ {
+    background-color: #0996FF;
+
+}
+
+.informacje
+ {
+ background-color: #50FFFF
+}
+
+.role
+ {
+ background-color: #FF6446
+}
+
+.inne 
+ {
+ background-color:rgb(100, 255, 255);
+}
+
+/*Wyśrodkowanie zawartości drugiej kolumny*/
+.info {
+    text-align: center;
+}
+
+/*selektor elementu dziecka*/
+dl > dt, dd {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*obrazki*/
+
+.obrazek
+ {
+    max-width: 300px;
+}
+
+/* opis i interlinia*/
+.opis {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    line-height: 1.4em;
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+/*wiekosc naglowka h1*/
+h1 {
+    font-size:30px;
+}
+/*cienie */
+h3 {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }  
+
+ /*linki*/
+
+a:link {
+    color:blue;
+}
+
+a:visited {
+    color:  green;
+}
+
+a:hover
+{
+   color: rgb(246, 172, 86);
+}
+
+a:active
+{
+   color: red;
+}
+
+
+
+/* kolor nagłówków tabeli*/
+th {
+ color: red ;
+}
+
+#shrek {
+    font-weight: bolder;
+}
+
+
+/* "shrek z dużych liter*/
+
+#shrek {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+/*linki do youtuba podkreślone*/
+
+ a[class*="youtube"]  {
+    font-weight: bolder;
+}
+
+
+/* ramka w kropki */
+
+.autor {
+    border: 3px dotted;
+}
+
+
+b {
+    font-size: larger
+}
+
+/* opis rezysera*/
+.opisrezysera {
+    width:700px;
+    line-height: 1.2em;
+    font-size: larger;
+    background-color: beige;
+}
+
+/*filmteb kolor*/
+#filmteb {
+    color: rgb(128, 0, 0);
+}
+
+
+
+
+/*obrazek*/
+.obrazektytulowy {
+    width: 100%;
+   
+
+}
+/*pierwsza litera*/
+dt::first-letter {
+ color: rgb(0, 255, 255);
+}
+
+/*kolor roku*/
+.rok {
+    background-color: #FF6446;
+    color:rgb(0, 255, 55);
+    font-size: larger;
+}
+
+/* wycentrowanie tekstu i wielkosc liter*/
+.obsada1 {
+    text-align: center;
+    font-size:1em;
+}
+.obsada12 {
+    text-align: center;
+    font-size:1.4em;
+}
+#obsada {
+    font-size: 1.5em;
+    padding-top:6em;
+}
+
+
+/*scroll*/
+div.scrollmenu {
+    width: 550px;
+    overflow:scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*ramka*/
+div.scrollmenu {
+    border: 20px solid black;
+    border-image-source: url(../img/frame.png);
+    border-image-slice:255;
+    border-image-width:51px;
+}
+
+/* wyśrodkowanie tabeli*/
+#obsada {
+    text-align: center;
+}
+ /*lista*/   
+.lista li {
+        float: left;
+        display: block;
+        padding: 14px 16px;
+}
+
+/*dodatek😎*/
+#shrek {
+    text-align: center;
+}
